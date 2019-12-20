@@ -4,10 +4,6 @@ PYUPDI Adaptation for Raspberry PI Zero W
 
 ![](UPDI_SCH.jpg)
 
-![](UPDI_SETUP.jpg)
-
-![](UPDI_CLIP.jpg)
-
 
 Usage:
 
