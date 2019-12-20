@@ -13,7 +13,7 @@ Usage:
 3.  Reboot the Programmer.  Within 30 seconds, Yellow comes on - Ready for Use.
 4.  Press Program button to program.  Within 10-15 seconds, Green light will lit - signals programming success.  If Red light lit - signals programming failed.
 
-
+![](UPDI_SETUP.jpg)
 
 
 Python UPDI driver for programming "new" tinyAVR and megaAVR devices
