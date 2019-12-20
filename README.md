@@ -1,4 +1,17 @@
 # pyupdi
+
+PYUPDI Adaptation for Raspberry PI Zero W
+
+![](UPDI_SCH.jpg)
+![](UPDI_SETUP.jpg)
+![](UPDI_CLIP.jpg)
+
+
+
+
+
+
+
 Python UPDI driver for programming "new" tinyAVR and megaAVR devices
 
 pyupdi is a Python utility for programming AVR devices with UPDI interface
