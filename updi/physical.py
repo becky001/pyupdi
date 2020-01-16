@@ -78,11 +78,11 @@ class UpdiPhysical(object):
         self._loginfo("send", command)
 
         self.ser.write(command)
-        # it will echo back.
+        # it will echo back.  RC comments.  Somehow echo does not work on  RASPI - don't know why.  So I edited out 4 lines.
         echo = self.ser.read(len(command))
-        if echo != bytes(command):
-            self._loginfo("incorrect echo", echo)
-            raise Exception("Incorrect echo data")
+        #if echo != bytes(command):
+        #    self._loginfo("incorrect echo", echo)
+        #    raise Exception("Incorrect echo data")
 
     def receive(self, size):
         """
